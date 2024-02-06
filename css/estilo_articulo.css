@@ -1,0 +1,17 @@
+.contenedor{
+	display: line;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.formulario{
+	text-align: center;
+	margin-left: 40%;
+}
+#titulo{
+	padding-left: 10px;
+}
+.margen{
+	margin-left: 10%;
+	margin-right: 10%;
+}

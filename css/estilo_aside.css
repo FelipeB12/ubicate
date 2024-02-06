@@ -1,0 +1,52 @@
+body{
+	font: 17px Helvetica sans-serif;
+}
+#barralateral{
+	float: left;
+	border-right: 2px solid #000000;
+	height: 100px;
+	padding-right: 25px; 
+}
+#barralateral li a{
+	color: black;
+	list-style-type: none;
+}
+#barralateral ul{
+   list-style-type: none;
+   text-align: left;
+}
+
+#aside body {
+    font-size: 28px;
+}
+
+#aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#aside li {
+    float: left;
+}
+
+#aside li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#aside li a:hover {
+    background-color: #111;
+}
+
+#aside .active {
+    background-color: #4CAF50;
+}
